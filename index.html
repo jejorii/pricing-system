@@ -317,8 +317,8 @@ const STORAGE_KEY = 'drow-pricing-data';
    المرفق، وحطي رابط الـ Web App (ينتهي بـ /exec) ونفس كلمة السر هنا.
    لو تركتيهما فاضيين، النظام يشتغل بالتخزين المحلي على كل جهاز لحاله. */
 const REMOTE = {
-  url: '',        // مثال: 'https://script.google.com/macros/s/AKfycb.../exec'
-  token: 'CHANGE_ME'
+  url: 'https://script.google.com/macros/s/AKfycbx9nUviztbgl_gt13D6b3-NPE1xiPvOIgoY3GFcp_W4enLMKHDDypt1zxfwgOvE7MnH/exec',
+  token: 'DrowSecret2026'
 };
 const todayISO = () => new Date().toISOString().slice(0,10);
 const fmtDate = (iso) => { const [y,m,d]=iso.split('-'); return `${d}/${m}/${y}`; };
